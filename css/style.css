@@ -120,6 +120,23 @@ a {
   transition: .6s;
 }
 
+.section {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  height: 100vw;
+}
+
+.artigos {
+  border: 1px solid green;
+  width: 300px;
+  height: 200px;
+  margin: 20px 20px 0 0;
+}
+
 /*Formatando titulos*/
 .titulo {
   width: 150px;
