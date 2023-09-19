@@ -13,6 +13,8 @@ body {
 
 header {
   background: rgb(19, 32, 49);
+  width: 100%;
+  padding: auto;
 }
 
 li {
@@ -98,21 +100,25 @@ a {
 /*Fim perfil*/
 
 /* Inicio Main*/
+.box-items {
+  width: 1280px;
+  margin: 0 auto;
+}
 .main {
   border: 1px solid red;
   height: 60vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .projects {
   border: 1px solid black;
-  width: 400px;
-  height: 200px;
-  margin: 20px 0 0 0;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
 }
 
 .projects:hover {
@@ -122,19 +128,20 @@ a {
 
 .section {
   border: 1px solid red;
+  height: 65vw;;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
-  height: 100vw;
+  align-items: center;
 }
 
 .artigos {
   border: 1px solid green;
+  background: white;
   width: 300px;
-  height: 200px;
-  margin: 20px 20px 0 0;
+  height: 400px;
+  margin: 10px;
 }
 
 /*Formatando titulos*/
@@ -201,14 +208,13 @@ a {
     width:100%;
   }
   .profile img {
-    margin-top: 10%;
-    margin-left: 18%;
+    margin: 10% 0 0 5%;
     max-width: 100%;
   }
   .profile h1{
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    width: 100%;
-    margin: 20px 20px 30px 0;
+    margin: 0 auto;
   }
 
   .profile h2 {
