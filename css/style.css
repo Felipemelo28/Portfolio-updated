@@ -101,7 +101,7 @@ a {
 
 /* Inicio Main*/
 .box-items {
-  width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 .main {
@@ -116,7 +116,7 @@ a {
 
 .projects {
   border: 1px solid black;
-  width: 300px;
+  width: 400px;
   height: 300px;
   margin: 10px;
 }
@@ -147,7 +147,7 @@ a {
 /*Formatando titulos*/
 .titulo {
   width: 150px;
-  margin: 20px 0 0 132px;
+  margin: 20px 0 0 90px;
 }
 
 /*Inicio menu hamburguer*/
