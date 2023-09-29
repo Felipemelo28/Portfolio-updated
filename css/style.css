@@ -78,6 +78,7 @@ a {
 }
 
 .profile h1 {
+  border: 1px solid red;
   color: #f58c1c;
   text-transform: capitalize;
   font-size: 58px;
@@ -89,9 +90,13 @@ a {
 .profile p {
   color: #000000;
   margin: 20px 0 0 60px;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
-  text-transform: uppercase;
+  width: 60ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 10s steps(10), blinking 0.5s;
 }
 
 .profile i {
@@ -167,6 +172,20 @@ a {
   background: #fff;
   transition: all 0.3s ease-in-out;
 }
+
+/*keyframes*/
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+  border-color: transparent;
+  }
+}
+/*fim-keyframes*/
 /*Fim menu hamburguer*/
 
 @media (max-width:768px){
