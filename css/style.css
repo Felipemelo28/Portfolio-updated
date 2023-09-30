@@ -46,6 +46,7 @@ a {
   display: flex;
   align-items: center;
   gap: 60px;
+  opacity: 5;
 }
 
 .nav-link {
@@ -105,14 +106,14 @@ a {
 /*formatando icones */
 
 .link {
-  color: #270993;
-  margin: 0 0 0 60px;
+  color: #000000;
+  margin: 20px 0 0 60px;
   font-size: 1.6rem;
 
 }
 
 .insta {
-  color: #fb0707ee;
+  color: #000000;
   font-size: 1.6rem;
 }
 
@@ -127,7 +128,6 @@ a {
   margin: 0 auto;
 }
 .main {
-  border: 1px solid red;
   height: 55vw;
   display: flex;
   flex-direction: row;
@@ -153,10 +153,12 @@ a {
   width: 100%;
 }
 
-.estudo i {
-  color: #fffb03cc;
-  margin: 10px 0 0 60px;
+.estudo span {
+  color: #4b4a4a;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 0 10px;
 }
+
 
 /*Formatando titulos*/
 .titulo {
