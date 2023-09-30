@@ -12,6 +12,8 @@ body {
 /*Inicio navegação*/
 
 header {
+  position: sticky;
+  top: 0;
   background: rgb(19, 32, 49);
   width: 100%;
   padding: auto;
@@ -78,7 +80,6 @@ a {
 }
 
 .profile h1 {
-  border: 1px solid red;
   color: #f58c1c;
   text-transform: capitalize;
   font-size: 58px;
@@ -99,12 +100,26 @@ a {
   animation: typing 10s steps(10), blinking 0.5s;
 }
 
-.profile i {
-  color: blue;
-  margin: 20px 0 0 60px;
-  background-size: cover;
-}
 /*Fim perfil*/
+
+/*formatando icones */
+
+.link {
+  color: #270993;
+  margin: 0 0 0 60px;
+  font-size: 1.6rem;
+
+}
+
+.insta {
+  color: #fb0707ee;
+  font-size: 1.6rem;
+}
+
+.git {
+  color: #000000;
+  font-size: 1.6rem;
+}
 
 /* Inicio Main*/
 .box-items {
@@ -113,7 +128,7 @@ a {
 }
 .main {
   border: 1px solid red;
-  height: 60vw;
+  height: 55vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -133,28 +148,21 @@ a {
   transition: .6s;
 }
 
-.section {
-  border: 1px solid red;
-  height: 65vw;;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.estudo {
+  height: 30vw;
+  width: 100%;
 }
 
-.artigos {
-  border: 1px solid green;
-  background: white;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
+.estudo i {
+  color: #fffb03cc;
+  margin: 10px 0 0 60px;
 }
 
 /*Formatando titulos*/
 .titulo {
-  width: 150px;
-  margin: 20px 0 0 90px;
+  width: 30px;
+  margin: 0 0 0 60px;
+  padding: 20px 0 0 0;
 }
 
 /*Inicio menu hamburguer*/
