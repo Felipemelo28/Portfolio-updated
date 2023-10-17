@@ -130,13 +130,12 @@ a {
 
 /* Inicio Main*/
 .work {
-  background: rgba(19, 32, 49);
   height: 55vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 .projects {
@@ -149,7 +148,6 @@ a {
 
 .projects a {
   text-decoration: none;
-  color: #000;
 }
 
 .projects:hover {
