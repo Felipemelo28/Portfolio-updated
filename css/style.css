@@ -104,9 +104,8 @@ a {
 
 .link {
   color: #1c1c9f;
-  margin: 20px 0 0 60px;
   font-size: 1.6rem;
-
+  padding: 10px 0 0 60px;
 }
 
 .code {
@@ -187,7 +186,6 @@ a {
 
 /*Formatando titulos*/
 .titulo {
-  border: 1px solid red;
   color:rgb(19, 32, 49);
   font-family: 'Times New Roman', Times, serif;
   font-size: 2em;
@@ -199,7 +197,6 @@ a {
 /*fim-titullo*/
 
 .formation {
-  border: 1px solid blue;
   height: 100%;
   padding-top: 10px;
 }
@@ -231,18 +228,14 @@ h4 {
 }
 
 .contact {
-  width: 25rem;
-  height: 25rem;
+  width: 25em;
+  height: 20em;
   padding: 180px 0 0 0;
 }
 
 .contact p {
-  padding: 10px 0 0 5px;
+  padding: 5px 0 0 5px;
   font-size: 1.2rem;
-}
-
-.contact a {
-  
 }
 
 /*Inicio menu hamburguer*/
