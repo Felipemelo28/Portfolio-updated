@@ -59,13 +59,6 @@ a {
 
 /*Inicio perfil*/
 
-.container {
-  width: 92%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 40px 0 0 0;
-}
-
 .capa {
   display: flex;
   width: 100%;
@@ -127,6 +120,13 @@ a {
 }
 
 /* Inicio Main*/
+.container {
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+
 .work {
   width: 1080px;
   height: 100%;
@@ -230,6 +230,20 @@ h4 {
   padding: 0 0 0 5px;
 }
 
+.contact {
+  width: 25rem;
+  height: 25rem;
+  padding: 180px 0 0 0;
+}
+
+.contact p {
+  padding: 10px 0 0 5px;
+  font-size: 1.2rem;
+}
+
+.contact a {
+  
+}
 
 /*Inicio menu hamburguer*/
 .hamburguer {
