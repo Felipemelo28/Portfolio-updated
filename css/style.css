@@ -120,6 +120,7 @@ a {
 
 /* Inicio Main*/
 .container {
+  border: 1px solid black;
   width: 92%;
   height: 100%;
   margin: 0 auto;
@@ -157,7 +158,6 @@ a {
   width: 100%;
   height: 100%;
   opacity: 0;
-  padding-top: 140px;
   transition: 2s;
 }
 
@@ -167,19 +167,20 @@ a {
 }
 
 .blackbox-text {
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
   padding: 70px 0 0 190px;
 }
 
 .blackbox-text h2 {
   text-transform: none;
   font-weight: 100;
-  margin-top: 0;
 }
 
 .blackbox-text h3 {
   text-transform: none;
   font-weight: 100;
-  margin-top: 0;
 }
 
 
@@ -228,7 +229,8 @@ h4 {
 }
 
 .contact {
-  width: 25em;
+  border: 1px solid red;
+  width: 20em;
   height: 20em;
   padding: 180px 0 0 0;
 }
@@ -314,18 +316,22 @@ h4 {
 
   .work {
     display: block;
-    width: 100%;
+    width: 95%;
   }
 
   .projects {
-    width: 300px;
-    height: 300px;
-    margin: 20px 0 20px 15px;
+    width: 310px;
+    height: 310px;
+    margin: 20px 0;
   }
 
+ .blackbox {
+    opacity: 0.6;
+ }
+
   .titulo {
-    margin: 0 auto;
-    padding: 0 0 0 70px;
+    border: 1px solid green;
+    padding: 10px 0 0 5px;
   }
 
 }
