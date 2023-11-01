@@ -93,13 +93,13 @@ a {
 }
 
 .profile p {
-  width: 500px;
+  width: 450px;
   color: #3f3f3f;
-  padding: 0 0 0 60px;
-  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 0 0 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.1rem;
-  font-weight: bold;
-  overflow: visible;
+  text-transform: uppercase;
+  direction: ltr;
 }
 
 /*Fim perfil*/
